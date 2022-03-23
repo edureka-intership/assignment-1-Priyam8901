@@ -1,0 +1,274 @@
+.upper{
+    background-color:crimson;
+    height: 64px;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+
+    
+    
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+          
+}
+.radius{
+    border-radius: 50%;
+    border-style:solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    color: red;
+    font-family:poppins;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 13px 740px 13px 0;
+    
+    
+}
+.log{
+    background-color: transparent;
+    color: white;
+    border-style: none;  
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+    /* margin: 0px 20px 0px 0px; */
+}
+.Create{
+    margin: 15px 15px 15px 15px;
+    /* padding: 10px 10px 10px 10px; */
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: white;
+    /* border-inline: 10px; */
+    background-color: transparent;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+
+
+
+}
+
+.heading{
+    position: absolute;
+    left:10%;
+    text-align: left;
+    font-style:normal;
+    font-family: poppins;
+    font-size: 30px;
+    color: #192f60;
+    font-stretch: normal;
+    letter-spacing: normal;
+    /* font: display 2px; */
+    font-weight: bold;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-weight:lighter;
+    margin-bottom: 10px;
+    line-height: 1.53;
+}
+.filter{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    /* border: 1px;
+    border-style: solid; */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 16%;
+    height: 90%;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    line-height: 35px;
+}
+.filters{
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #192f60;
+    line-height: 2.5px;
+}
+.select{
+    width: 80%;
+    height: 30px;
+    line-height: 2.5px;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+.location{
+    font-weight: 500;
+    font-size: 15px;
+    color:#192f60;
+    font-family: poppins;
+    line-height: 5px;
+    
+}
+.Cuisine{
+    margin: 15px 102px 11px 1px;
+    font-family: poppins;
+    font-size: 15px;
+    color: #192f60;
+    font-weight:500;
+    /* line-height:px; */
+    
+}
+.box{
+    color: gray;
+    font-family: poppins;
+    line-height: 0px;
+}
+.selected{
+    color: gray;
+}
+.radio{
+    color: gray;
+    font-family: poppins;
+    line-height: 1.5px;
+}
+.sort{
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #192f60;
+    line-height: 0.5px;
+}
+.check{
+    font-weight: lighter;
+}
+.image{
+    width:105px; 
+    height:105px;
+    display: inline-block;
+    object-fit: none;
+    border-radius: 10px;
+    /* margin: 5px 10px 10px 5px; */
+    
+    
+}
+.items{
+    display: block;
+    width: 660px;
+    height: 230px;
+    margin: 20px 100px 20px 30px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.cakery{
+    position: absolute;
+    left: 21%;
+    top: 2%;
+    color: #192f60;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.fort{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 5px;
+    color:#192f60;
+    position: absolute;
+    left: 22%;
+    top: 22%;
+}
+.address_line1{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.8;
+    color: gray;
+    position: absolute;
+    left: 22%;
+    top: 28%;
+}
+.cuisines{
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 6;
+    color: gray;
+
+}
+.cost{
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    top: 72%;
+}
+.bake{
+    font-family: poppins;
+    font-size: 15px;
+    color: #192f60;
+    position: absolute;
+    left: 25%;
+    top: 61%;
+}
+.rupee{
+    font-family: poppins;
+    font-size: 15px;
+    color: #192f60;
+    position: absolute;
+    left: 25%;
+    top: 71%;
+}
+.item{
+    display: block;
+    width: 660px;
+    height: 230px;
+    margin: 20px 100px 20px 30px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    /* bottom: 5%; */
+}
+.bakeshop{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #192f60;
+    position: absolute;
+    left: 21%;
+    top: 8%;
+    line-height: 1.5px;
+}
+.pagination{
+    /* color: gray; */
+    position: absolute;
+    left: 45%;
+    top: 105%;
+    line-height: 5px;
+    font-size: xx-large;
+
+}
+.page{
+    display: inline-block;
+    object-fit: none;
+    border-radius: 7px;
+    margin: 10px 5px 30px 0px;
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+}
